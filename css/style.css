@@ -1,0 +1,135 @@
+@font-face {
+    font-family:'quilin';
+    src:url("../fonts/Quilin_PersonalUse.otf");
+}
+
+* {
+    font-family: 'quilin';
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFDF0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.head-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: 2px solid #F4D9D2;
+}
+
+.title {
+    color: #BE2233;
+    font-size: 36px;
+    line-height: 28.8px;
+}
+
+.search-input {
+    height: 100%;
+}
+
+.search-input input {
+    margin: 0 10px;
+    padding-left: 30px;
+    position: relative;
+    top: 34px;
+    height: 44px;
+    width: 496px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F4D9D2;
+    font-size: 24px;
+    line-height: 19px;
+}
+
+.search-input input::placeholder {
+    color: #CC876A;
+}
+
+.menu-secondary {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.account .menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.account .menu span {
+    color: #346D9E;
+}
+
+.account .menu a {
+    text-decoration: none;
+    color: #CC876A;
+}
+
+.cart {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cart .cart-count {
+    background-color: #CC876A;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+header nav {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 19px;
+    color: #346D9E;
+}
+
+.mySlides {
+    display:none
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+}
+
+.w3-badge {
+    height:13px;
+    width:13px;
+    padding:0
+}
